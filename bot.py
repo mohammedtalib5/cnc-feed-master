@@ -67,12 +67,12 @@ PROCESSES = [
 ]
 
 MACHINES = {
-    "Z-MAT T500": {"max_rpm": 3500, "stability": 0.90},
-    "Doosan": {"max_rpm": 4500, "stability": 1.00},
-    "Haas": {"max_rpm": 6000, "stability": 1.00},
-    "Fanuc": {"max_rpm": 4000, "stability": 0.95},
-    "ماكنة صغيرة": {"max_rpm": 3000, "stability": 0.75},
-    "ماكنة ثقيلة": {"max_rpm": 2500, "stability": 1.15},
+    "Z-MAT T500": {"max_rpm": 3500, "stability": 0.95},
+    "VIVA TURN": {"max_rpm": 3500, "stability": 0.92},
+    "CK40": {"max_rpm": 3000, "stability": 0.85},
+    "GSK": {"max_rpm": 3000, "stability": 0.88},
+    "SIEMENS": {"max_rpm": 4000, "stability": 1.00},
+    "SYNTEC MILL": {"max_rpm": 8000, "stability": 1.00},
 }
 
 MATERIAL_GROUPS = ["حديد", "ستانلس", "ألمنيوم", "براص / نحاس", "بلاستك"]
